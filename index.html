@@ -171,7 +171,7 @@
         const greetEle = document.querySelector("#greeting");
         const currentTime = new Date().getHours();
 
-        if(currentTime > 12) {
+        if(currentTime > 12 && currentTime < 17) {
             greetEle.textContent = "Afternoon";
         }
         else {
